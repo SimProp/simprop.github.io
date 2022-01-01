@@ -25,5 +25,22 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
+    - navigation.sections
 
+# Page tree
+nav:
+  - Home: index.md
+  - Getting started:
+    - Installation: installation.md
+    - Changelog: changelog.md
+    - License: license.md
+    - How to cite SimProp: howtocite.md
+  - Physics reference manual:
+    - reference/index.md
+    - Cosmology: reference/cosmology.md
+    - Photon Fields: reference/phfields.md
+  - Additional resources:
+    - additional/index.md
+    - Data credits additional/data.md
+    - DevTeam additional/team.md
 
