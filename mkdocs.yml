@@ -12,7 +12,18 @@ edit_uri: ""
 # Copyright
 copyright: Copyright &copy; 2021 SimProp DevTeam
 
+# versioning
+extra:
+  version:
+    provider: mike
+
+# theme
 theme:
   name: material
+  language: en
   hljs_languages: c++
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+
 
