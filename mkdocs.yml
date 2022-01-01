@@ -1,4 +1,18 @@
-site_name: My Docs
+# Project information
+site_name: SimProp Sirente
+site_url: https://simprop.github.io/
+site_author: SimProp DevTeam
+site_description: Monte Carlo simulation code of ultra-high energy cosmic ray propagation.
+
+# Repository
+repo_name: SimProp/simprop
+repo_url: https://simprop.github.io/
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2021 SimProp DevTeam
+
 theme:
   name: material
+  hljs_languages: c++
 
