@@ -1,17 +1,13 @@
-# Welcome to MkDocs
+# Welcome to **SimProp** documentation
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**SimProp** is a Monte Carlo (MC) simulation code developed for the propagation of ultra-high energy (UHE) particles (protons and nuclei) through astrophysical backgrounds. In designing such a code, we have focused on a tool which can provide a fast and reliable analysis of the predictions on the spectrum and chemical composition.
 
-## Commands
+The first version of the code (v2r0) was publicily released in May 2012. The current version is (v2r?) and can be found on a github [repository](https://github.com/carmeloevoli/SimProp-beta) 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+The computational scheme to propagate charged particles in SimProp is based on the kinetic approach proposed by [Aloisio+2020](). 
 
-## Project layout
+The main ingredients of this method are:
+* the continuous energy loss (CEL) approximation and 
+* the assumption of an exact con- servation of the particle’s Lorentz factor in the photo- disintegration process 
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+
