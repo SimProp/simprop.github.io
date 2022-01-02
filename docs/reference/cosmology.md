@@ -1,4 +1,7 @@
 # Cosmology framework
 
 
-![Hubble time](hubbleTime.png)
+<figure markdown> 
+  ![HubbleTime](hubbleTime.png){ width="500" }
+  <figcaption>Image caption</figcaption>
+</figure>
