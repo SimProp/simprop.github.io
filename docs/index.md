@@ -4,13 +4,15 @@
 
 **SimProp** is a Monte Carlo (MC) simulation code developed for the propagation of ultra-high energy (UHE) particles (protons and nuclei) through astrophysical backgrounds. In designing such a code, we have focused on a tool which can provide a fast and reliable analysis of the predictions on the spectrum and chemical composition.
 
-The computational scheme to propagate charged particles in SimProp is based on the kinetic approach proposed by [1] [Aloisio+2020](). 
+The computational scheme to propagate charged particles in SimProp is based on the kinetic approach proposed by [Aloisio et al., 2013](https://ui.adsabs.harvard.edu/abs/2013APh....41...73A). 
 
-The main ingredients of this method are:
+The main physical processes taken into account are:
 
-* the continuous energy loss (CEL) approximation and 
+* the continuous energy loss of...
 
-* the assumption of an exact con- servation of the particle’s Lorentz factor in the photo- disintegration process 
+* the photo-disintegration process...
+
+* the photo-pion production...
 
 ## Latest version
 
