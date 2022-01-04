@@ -65,6 +65,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - footnotes
+  - tables
   - pymdownx.arithmatex:
       generic: true
   - admonition
@@ -87,6 +88,7 @@ extra_javascript:
 # Page tree
 nav:
   - Home: index.md
+  - DevTeam: team.md
   - Getting started:
     - Installation: installation.md
     - Changelog: changelog.md
@@ -99,5 +101,5 @@ nav:
   - Additional resources:
     - additional/index.md
     - Data credits: additional/data.md
-    - DevTeam: additional/team.md
+    - Main literatue: additional/literature.md
 
