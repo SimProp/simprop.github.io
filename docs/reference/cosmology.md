@@ -29,7 +29,7 @@ An updated parameter list can be obtained by using the derived class `Planck2018
 | $\Omega_c h^2$   | Physical dark matter density |  0.1200| 
 | $\Omega_\Lambda$ | Dark energy density          |   0.685|
 
-[^Planck2018]: Planck Collaboration, 2020, A\&A, 641, A6 [[ADS](https://ui.adsabs.harvard.edu/abs/2020A%26A...641A...6P)]
+[^Planck2018]: Planck Collaboration, 2020, A&A, 641, A6 [[ADS](https://ui.adsabs.harvard.edu/abs/2020A%26A...641A...6P)]
 
 An example of usage of the `Planck2018` Cosmology class can be found:
 
